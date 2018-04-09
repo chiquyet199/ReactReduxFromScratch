@@ -1,4 +1,4 @@
-@import '../../assets/stylesheets/base.scss';
+@import '../../assets/css/base.scss';
 
 @keyframes rotate-loading {
   0% {
@@ -209,7 +209,7 @@
 
 .loading {
   border: 2px solid transparent;
-  border-color: transparent $dark-gray transparent $dark-gray;
+  border-color: transparent $background-black transparent $background-black;
   -moz-animation: rotate-loading 1.5s linear 0s infinite normal;
   -moz-transform-origin: 50% 50%;
   -o-animation: rotate-loading 1.5s linear 0s infinite normal;
@@ -221,7 +221,7 @@
 }
 
 .loading-container:hover .loading {
-  border-color: transparent $yellow-green transparent $yellow-green;
+  border-color: transparent $primary transparent $primary;
 }
 .loading-container:hover .loading,
 .loading-container .loading {
@@ -237,8 +237,8 @@
   -o-animation: loading-text-opacity 2s linear 0s infinite normal;
   -webkit-animation: loading-text-opacity 2s linear 0s infinite normal;
   animation: loading-text-opacity 2s linear 0s infinite normal;
-  color: $dark-gray;
-  font-family: 'Helvetica Neue, 'Helvetica', ''arial';
+  color: $background-black;
+  font-family: 'Helvetica Neue, ' Helvetica ', ' 'arial';
   font-size: 10px;
   font-weight: bold;
   margin-top: 45px;

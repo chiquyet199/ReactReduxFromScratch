@@ -3,13 +3,14 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 
 import store from 'configs/store'
-import { HomeScreen } from 'screens'
+import App from './app'
 
-import 'assets/stylesheets/base.scss'
+import 'assets/css/base.scss'
+import 'assets/css/common.scss'
 
 render(
   <Provider store={store}>
-    <HomeScreen />
+    <App />
   </Provider>,
   document.getElementById('root'),
 )

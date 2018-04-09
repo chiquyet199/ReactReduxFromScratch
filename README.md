@@ -1,3 +1,5 @@
+## MTL DESKTOP
+
 ## UP & RUNNING
 
 Install dependencies:
@@ -44,32 +46,6 @@ To run the watch task:
 
 ```
 $ yarn lint:watch
-```
-
-## Testing
-
-To run the tests once:
-
-```
-$ yarn test
-```
-
-To run the watch script (for only relevant test files)
-
-```
-$ yarn test:watch
-```
-
-To run the watch script (for all test files)
-
-```
-$ yarn test:watchAll
-```
-
-To view the coverage report:
-
-```
-$ yarn test:coverage:report
 ```
 
 ## Production Build
