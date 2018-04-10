@@ -3,10 +3,10 @@ import PropTypes from 'prop-types'
 
 import './Loading.scss'
 
-const Loading = (props) => {
-const {text} = props
+const Loading = props => {
+  const { text } = props
   return (
-    <div className="loading-container">
+    <div className="loading-container hello">
       <div className="loading" />
       <div id="loading-text">{text}</div>
     </div>
@@ -14,11 +14,11 @@ const {text} = props
 }
 
 Loading.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.string,
 }
 
 Loading.defaultProps = {
-  text: 'loading'
+  text: 'loading',
 }
 
 export default Loading
